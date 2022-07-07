@@ -16,7 +16,7 @@ function buttonSubmit(){
     }else if (!message){
         return alert ('Berikan keterangan')
     }else{
-        alert('Data sudah dilengkapi')
+        alert('Data berhasil dilengkapi')
     }
     
     console.log(name);

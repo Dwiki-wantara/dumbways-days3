@@ -5,9 +5,15 @@ body{
 }
 
 nav{
-    height: 9vh;
+    height: 8vh;
     background-color: rgb(243, 243, 243);
     display: flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
 }
 
 .navLeft{
@@ -20,24 +26,7 @@ nav{
 .navLeft li{
     display: inline;
     padding: 10px;
-    
-}
-
-nav a{
-    text-decoration: none;
-    color: black;
-    font-size: large;
-}
-
-.home{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-}
-
-.home:hover{
-    border-radius: 25px;
-    border-color: rgb(138, 138, 138);
-    background-color: rgb(138, 138, 138);
+    font-size: 15px;
 }
 
 .navRight{
@@ -59,6 +48,17 @@ nav a{
 }
 
 .navRight a:hover{
+    border-color: rgb(138, 138, 138);
+    background-color: rgb(138, 138, 138);
+}
+
+.home{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.home:hover{
+    border-radius: 25px;
     border-color: rgb(138, 138, 138);
     background-color: rgb(138, 138, 138);
 }
