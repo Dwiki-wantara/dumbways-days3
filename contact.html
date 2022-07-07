@@ -1,0 +1,74 @@
+<html>
+<head>
+    <link rel="stylesheet" href="assets/styles/contact-me.css">
+    <title>Contact</title>
+</head>
+<body>
+    <script src="assets/js/formsubmit.js"></script>
+    <nav>
+        <div class="navLeft">
+            <a href="index.html"><img src="assets/images/logo.png" alt="" style="width: 40px; display: flex; align-items: center;"></a>
+            <ul>
+                <li class="home">
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="">My Project</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navRight">
+            <ul>
+                <li>
+                    <a href="contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="headContent">
+        <div>
+            <h1 class="title">GET IN TOUCH</h1>
+            <form class="form">
+                
+                <div class="form_element">
+                    <label for="Name">Name</label>
+                    <input type="text" placeholder="Name" id="name" style="padding-left: 10px;">
+                </div>
+
+                <div class="form_element">
+                    <label for="Email">Email</label>
+                    <input type="email" placeholder="@gmail.com" id="email" style="padding-left: 10px;">
+                </div>
+
+                <div class="form_element">
+                    <label for="Phone">Phone Number</label>
+                    <input type="text" placeholder="+62 8211 9576 xxx" id="phone" style="padding-left: 10px;">
+                </div>
+
+                <div class="form_element">
+                    <label for="Subject">Subject</label>
+                    <select name="" id="select" style="cursor: pointer;">
+                        <option value="select your agency" hidden>Select your agency</option>
+                        <option value="Polri">POLRI</option>
+                        <option value="TNI">TNI</option>
+                        <option value="PNS">PNS</option>
+                    </select>
+                </div>
+
+                <div class="form_element">
+                    <label for="message">Your Message</label>
+                    <textarea name="" id="message" cols="15" rows="5" placeholder="Description" style="resize: none; padding-left: 10px;"></textarea >
+                </div>
+                <div class="button">
+                    <button type="button" class="button-submit" onclick="buttonSubmit()">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

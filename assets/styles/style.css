@@ -1,0 +1,129 @@
+body{
+    margin: 0%;
+    background-color: rgb(218, 218, 218);
+    font-family: sans-serif;
+}
+
+nav{
+    height: 9vh;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+}
+
+.navLeft{
+    display: flex;
+    padding-left: 100px;
+    flex: 50%;
+    align-items: center;
+}
+
+.navLeft li{
+    display: inline;
+    padding: 10px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.home{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.home:hover{
+    border-radius: 25px;
+    border-color: rgb(138, 138, 138);
+    background-color: rgb(138, 138, 138);
+}
+
+.navRight{
+    display: flex;
+    align-items: center;
+}
+
+.navRight li{
+    display: inline;
+    padding-right: 100px;
+}
+
+.navRight a{
+    font-size: 12px;
+    background-color: rgb(37, 37, 63);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navRight a:hover{
+    border-color: rgb(138, 138, 138);
+    background-color: rgb(138, 138, 138);
+}
+
+.headContent{
+    background-color: white;
+    margin: 120px 100px;
+    padding: 50px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(75, 75, 75);
+    display: flex;
+}
+
+.content{
+    display: block;
+    flex: 50%;
+    margin-right: 50px;
+   
+}
+
+.button{
+    margin-bottom: 25px;
+}
+
+.button a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.contact{
+    border-color: navy;
+    background-color: navy; 
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 15px;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.contact:hover{
+    border-color: rgb(138, 138, 138);
+    background-color: rgb(138, 138, 138);
+}
+
+.downloadCV{
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+
+.logoSosmed{
+    display: flex;
+    margin: auto;
+}
+
+.logoSosmed i{
+    padding: 10px;
+}
+
+.display_card{
+    border-radius: 10px;
+    width: 35%;
+    margin: auto;
+    box-shadow: 0 0 15px rgb(197, 197, 197);
+    text-align: center;
+    padding-bottom: 10px;
+}
